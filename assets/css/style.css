@@ -49,6 +49,7 @@ h1 {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 2.5em;
+  cursor: pointer;
 }
 
 #advantages {
@@ -77,6 +78,7 @@ h3 {
 #review {
   background-color: #e22d0e;
   color: white;
+  margin-bottom: 3em;
 }
 
 h2 {
@@ -123,7 +125,9 @@ h4 {
 footer {
   background-color: #25a2c3;
   color: white;
-  padding-bottom: 4em;
+  padding-bottom: 3em;
+  font-weight: 300;
+  margin-top: 4em;
 }
 
 footer h2 {
@@ -137,6 +141,14 @@ footer a {
 
 footer hr {
   width: 50%;
-  margin: 1.5em auto 1em auto;
+  margin: 1.5em auto 1.5em auto;
   color: #aedaf3;
+}
+
+s {
+  text-decoration: underline;
+}
+
+#smaller {
+  font-size: 0.8em;
 }
