@@ -118,7 +118,9 @@ h4 {
 }
 
 .box img {
+  object-fit: cover;
   width: 100%;
+  height: 250px;
   margin-bottom: 1em;
 }
 
@@ -135,18 +137,22 @@ footer h2 {
   padding-top: 1.2em;
 }
 
+footer p {
+  color: #c0e4ea;
+}
+
+footer .fas {
+  color: white;
+}
+
 footer a {
   color: #c8e7f0;
 }
 
 footer hr {
-  width: 50%;
+  width: 45%;
   margin: 1.5em auto 1.5em auto;
   color: #aedaf3;
-}
-
-s {
-  text-decoration: underline;
 }
 
 #smaller {
