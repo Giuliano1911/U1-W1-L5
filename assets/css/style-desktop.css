@@ -1,0 +1,177 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65em;
+  color: #393d41;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  width: 120px;
+  padding: 1.5em 0 1.5em 2em;
+  text-align: left;
+}
+
+main {
+  text-align: center;
+}
+
+#page-title {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: 43% 7%;
+  font-family: "Montserrat", sans-serif;
+  padding: 5em 0 6em 0;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #25a2c3;
+  padding: 1.5em 2em 0 2em;
+  line-height: 35px;
+}
+
+#page-title p {
+  padding: 0.5em 2em 2em 2em;
+  line-height: 30px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#page-title button {
+  background-color: #f04c2f;
+  border: none;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2.5em;
+  cursor: pointer;
+  font-size: 0.6em;
+}
+
+#advantages {
+  margin: 4.5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  color: #299fca;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+#advantages h3 {
+  text-align: left;
+}
+
+#advantages p {
+  margin-bottom: 1.4em;
+  text-align: left;
+}
+
+#advantages img {
+  clip-path: circle();
+  margin-bottom: 2em;
+  width: 30%;
+}
+
+#wrapper {
+  display: grid;
+  width: 40%;
+  margin-left: 5%;
+}
+
+#review {
+  background-color: #e22d0e;
+  color: white;
+  margin-bottom: 3em;
+  padding: 1em 0 4em 0;
+}
+
+h2 {
+  font-size: 2.3em;
+  font-weight: 700;
+  padding: 3em 0 1.5em 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#review h2 {
+  font-size: 1.8em;
+}
+
+#review p {
+  padding: 0 2em 1.5em 2em;
+  font-size: 0.7em;
+}
+
+#review span {
+  font-size: 1.7em;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 0.9em;
+}
+
+#information-boxes {
+}
+
+.box {
+  border: 1px solid #dee1e3;
+  width: 25%;
+  margin: 2%;
+  display: inline-block;
+  align-items: flex-start;
+}
+
+.box p {
+  padding: 0 1.5em 2em 1.5em;
+}
+
+.box img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+  padding-bottom: 3em;
+  font-weight: 300;
+  margin-top: 4em;
+  text-align: center;
+}
+
+footer h2 {
+  padding-bottom: 1em;
+  padding-top: 1.2em;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer hr {
+  width: 50%;
+  margin: 1.5em auto 1.5em auto;
+  color: #aedaf3;
+}
+
+s {
+  text-decoration: underline;
+}
+
+#smaller {
+  font-size: 0.8em;
+}
